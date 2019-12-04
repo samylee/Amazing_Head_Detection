@@ -13,11 +13,11 @@ or:    Amazing_Head_Detection.exe video test.avi  (for video)
 or:    Amazing_Head_Detection.exe video 0  (for usbcam)
 ```
 # Algorithm efficiency
-| Image Size | Speed | FPS | CPU |
-|:------:|:------:|:------:|:------:|
-| 320x240  | 6ms |166.7| i7-9700K |
-| 640x480  | 23ms |43.5| i7-9700K |
-| 800x600  | 42ms |23.8| i7-9700K |
+| Image Size | Speed | FPS | CPU | min_size |
+|:------:|:------:|:------:|:------:|:------:|
+| 320x240  | 6ms |166.7| i7-9700K | 16x16 |
+| 640x480  | 23ms |43.5| i7-9700K | 16x16 |
+| 800x600  | 42ms |23.8| i7-9700K | 16x16 |
 # Test experience
 If the image size is larger than `720p`, it is recommended to scale the image `below 720p`!
 # Example result
