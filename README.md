@@ -1,5 +1,7 @@
 # Amazing_Head_Detection
 CPU Real-time Amazing Head Detection
+# FIND CODE  
+https://blog.csdn.net/samylee/article/details/109596877  
 # Test steps
 ## step1
 Download opencv_dll and put it to current directory [BaiDu Cloud](https://pan.baidu.com/s/14VIsF6PD6ktU7ctUh301wA)
